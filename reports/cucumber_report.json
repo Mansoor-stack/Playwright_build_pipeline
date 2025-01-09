@@ -1,0 +1,105 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "sampletest;just-sample-application",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Just sample application",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 609994000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "The application is launched",
+            "match": {
+              "location": "features\\step_definitions\\steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2805684500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "The name field is located",
+            "match": {
+              "location": "features\\step_definitions\\steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37135300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "The name is entered",
+            "match": {
+              "location": "features\\step_definitions\\steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16368700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "The email field is located",
+            "match": {
+              "location": "features\\step_definitions\\steps.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4211900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "The email is entered",
+            "match": {
+              "location": "features\\step_definitions\\steps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13000500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 133542700
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "sampletest",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "SampleTest",
+    "tags": [],
+    "uri": "features\\sampleTest.feature"
+  }
+]
